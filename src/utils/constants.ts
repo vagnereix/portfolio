@@ -1,230 +1,170 @@
-export const SKILLS_DATA = [
-  {
-    skill_name: 'HTML 5',
-    Image: '/html.png',
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: 'CSS',
-    Image: '/css.png',
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: 'JavaScript',
-    Image: '/js.png',
-    width: 65,
-    height: 65,
-  },
-  {
-    skill_name: 'Tailwind CSS',
-    Image: '/tailwind.png',
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: 'React',
-    Image: '/react.png',
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: 'Redux',
-    Image: '/redux.png',
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: 'React Query',
-    Image: '/reactquery.png',
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: 'TypeScript',
-    Image: '/ts.png',
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: 'Next.js',
-    Image: '/next.png',
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: 'Framer Motion',
-    Image: '/framer.png',
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: 'Stripe Payment',
-    Image: '/stripe.webp',
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: 'Node.js',
-    Image: '/node-js.png',
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: 'Mongo DB',
-    Image: '/mongodb.png',
-    width: 40,
-    height: 40,
-  },
-];
-
-export const SOCIALS = [
-  {
-    name: 'Discord',
-    src: '/instagram.svg',
-  },
-  {
-    name: 'Facebook',
-    src: '/facebook.svg',
-  },
-  {
-    name: 'Instagram',
-    src: '/discord.svg',
-  },
-];
-
 export const FRONTEND_SKILLS = [
   {
-    skill_name: 'HTML 5',
-    Image: '/html.png',
-    width: 80,
-    height: 80,
+    name: "TailwindCSS",
+    image: "/techs/tailwind.svg",
   },
   {
-    skill_name: 'CSS',
-    Image: '/css.png',
-    width: 80,
-    height: 80,
+    name: "TypeScript",
+    image: "/techs/ts.png",
   },
   {
-    skill_name: 'JavaScript',
-    Image: '/js.png',
-    width: 65,
-    height: 65,
+    name: "Framer Motion",
+    image: "/techs/framer-motion.png",
   },
   {
-    skill_name: 'Tailwind CSS',
-    Image: '/tailwind.png',
-    width: 80,
-    height: 80,
+    name: "Flutter",
+    image: "/techs/flutter-color.svg",
   },
   {
-    skill_name: 'Material UI',
-    Image: '/mui.png',
-    width: 80,
-    height: 80,
+    name: "Material UI",
+    image: "/techs/mui.svg",
   },
   {
-    skill_name: 'React',
-    Image: '/react.png',
-    width: 80,
-    height: 80,
+    name: "Angular",
+    image: "/techs/angular.svg",
   },
   {
-    skill_name: 'Redux',
-    Image: '/redux.png',
-    width: 80,
-    height: 80,
+    name: "Expo",
+    image: "/techs/expo.svg",
   },
   {
-    skill_name: 'React Query',
-    Image: '/reactquery.png',
-    width: 80,
-    height: 80,
+    name: "React",
+    image: "/techs/react.png",
   },
   {
-    skill_name: 'TypeScript',
-    Image: '/ts.png',
-    width: 80,
-    height: 80,
+    name: "Redux",
+    image: "/techs/redux.png",
   },
   {
-    skill_name: 'Next.js',
-    Image: '/next.png',
-    width: 80,
-    height: 80,
+    name: "React Query",
+    image: "/techs/react-query.png",
+  },
+  {
+    name: "Vite",
+    image: "/techs/vite.svg",
+  },
+  {
+    name: "Astro",
+    image: "/techs/astro.svg",
+  },
+  {
+    name: "Next.js",
+    image: "/techs/next.png",
+  },
+  {
+    name: "Figma",
+    image: "/techs/figma.png",
+  },
+  {
+    name: "Clerk",
+    image: "/techs/clerk-color.svg",
   },
 ];
 
 export const BACKEND_SKILLS = [
   {
-    skill_name: 'Node.js',
-    Image: '/node-js.png',
-    width: 80,
-    height: 80,
+    name: "Prisma",
+    image: "/techs/prisma.svg",
+  },
+
+  {
+    name: "Mongo DB",
+    image: "/techs/mongo.svg",
   },
   {
-    skill_name: 'Express.js',
-    Image: '/express.png',
-    width: 80,
-    height: 80,
+    name: "Firebase",
+    image: "/techs/firebase.png",
   },
   {
-    skill_name: 'Mongo DB',
-    Image: '/mongodb.png',
-    width: 40,
-    height: 40,
+    name: "MySQL",
+    image: "/techs/mysql.png",
   },
   {
-    skill_name: 'Firebase',
-    Image: '/Firebase.png',
-    width: 55,
-    height: 55,
+    name: "PostgreSQL",
+    image: "/techs/postgres.png",
   },
   {
-    skill_name: 'PostgreSQL',
-    Image: '/postger.png',
-    width: 70,
-    height: 70,
+    name: "GraphQL",
+    image: "/techs/graphql.png",
   },
   {
-    skill_name: 'MySQL',
-    Image: '/mysql.png',
-    width: 70,
-    height: 70,
+    name: "Stripe Payment",
+    image: "/techs/stripe.svg",
   },
   {
-    skill_name: 'Prisma',
-    Image: '/prisma.webp',
-    width: 70,
-    height: 70,
+    name: "Webhook",
+    image: "/techs/webhook.svg",
   },
   {
-    skill_name: 'GraphQL',
-    Image: '/graphql.png',
-    width: 80,
-    height: 80,
+    name: "Docker",
+    image: "/techs/docker-color.svg",
   },
 ];
 
-export const FULL_STACK = [
+export const SOCIALS = [
   {
-    skill_name: 'React Native',
-    Image: '/ReactNative .png',
-    width: 70,
-    height: 70,
+    name: "Discord",
+    src: "/techs/instagram.svg",
   },
   {
-    skill_name: 'Docker',
-    Image: '/docker.webp',
-    width: 70,
-    height: 70,
+    name: "Facebook",
+    src: "/techs/facebook.svg",
   },
   {
-    skill_name: 'Figma',
-    Image: '/figma.png',
-    width: 50,
-    height: 50,
+    name: "Instagram",
+    src: "/techs/discord.svg",
+  },
+];
+
+export const COMPANIES = [
+  {
+    name: "aca.so",
+    logo: "/logos/acaso-logo.svg",
+    url: "https://aca.so/",
+  },
+  {
+    name: "Livelo",
+    logo: "/logos/logo-livelo.png",
+    url: "https://shopping.livelo.com.br/",
+  },
+  {
+    name: "ília",
+    logo: "/logos/logo-ilia.png",
+    url: "https://ilia.digital/",
+  },
+  {
+    name: "Search and Stay",
+    logo: "/logos/logo-search-stay.png",
+    url: "https://www.searchandstay.com/",
+  },
+  {
+    name: "Lead - Centro de Pesquisa, Desenvolvimento e Inovação Dell",
+    logo: "/logos/logo-lead-dell.svg",
+    url: "https://leadfortaleza.com.br/portal",
+  },
+  {
+    name: "Febracis",
+    logo: "/logos/logo-febracis.png",
+    url: "https://ed.febracis.com.br/",
+  },
+  {
+    name: "Mega Energy",
+    logo: "/logos/logo-mega-energy.png",
+    url: "https://megaenergybrasil.com.br/",
+  },
+  {
+    name: "iDun",
+    logo: "/logos/logo-idun.png",
+    url: "https://idun.com.br/",
+  },
+  {
+    name: "Tecla T",
+    logo: "/logos/logo-teclat.png",
+    url: "https://teclat.com.br/",
+  },
+  {
+    name: "VEM - Urbana PE",
+    logo: "/logos/logo-vem.png",
+    url: "https://cartaovem.com.br/login",
   },
 ];

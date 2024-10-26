@@ -19,33 +19,33 @@ export function BoxSvg() {
               id='figny9-box'
               d='M587 20H28V306H587V20Z'
               fill='#C9BB94'
-              fill-opacity='0.05'
+              fillOpacity='0.05'
               stroke='#C9BB94'
-              stroke-width='2'
+              strokeWidth='2'
             />
             <path
               id='figny9-adjust-1'
               d='M28 10H18V15V20H28V10Z'
               stroke='#C9BB94'
-              stroke-width='2'
+              strokeWidth='2'
             />
             <path
               id='figny9-adjust-3'
               d='M28 306H18V316H28V306Z'
               stroke='#C9BB94'
-              stroke-width='2'
+              strokeWidth='2'
             />
             <path
               id='figny9-adjust-4'
               d='M597 306H587V316H597V306Z'
               stroke='#C9BB94'
-              stroke-width='2'
+              strokeWidth='2'
             />
             <path
               id='figny9-adjust-2'
               d='M597 10H587V20H597V10Z'
               stroke='#C9BB94'
-              stroke-width='2'
+              strokeWidth='2'
             />
           </g>
           <g id='cursor'>
@@ -57,7 +57,7 @@ export function BoxSvg() {
               <path
                 d='M400.5 343L395 317L418.5 331L407 333.5L400.5 343Z'
                 stroke='black'
-                stroke-width='2'
+                strokeWidth='2'
               />
             </g>
             <g id='Rectangle 786' filter='url(#filter1_d_1_16)'>
@@ -80,9 +80,9 @@ export function BoxSvg() {
           width='35.6413'
           height='38.5224'
           filterUnits='userSpaceOnUse'
-          color-interpolation-filters='sRGB'
+          colorInterpolationFilters='sRGB'
         >
-          <feFlood flood-opacity='0' result='BackgroundImageFix' />
+          <feFlood floodOpacity='0' result='BackgroundImageFix' />
           <feColorMatrix
             in='SourceAlpha'
             type='matrix'
@@ -115,9 +115,9 @@ export function BoxSvg() {
           width='106'
           height='41'
           filterUnits='userSpaceOnUse'
-          color-interpolation-filters='sRGB'
+          colorInterpolationFilters='sRGB'
         >
-          <feFlood flood-opacity='0' result='BackgroundImageFix' />
+          <feFlood floodOpacity='0' result='BackgroundImageFix' />
           <feColorMatrix
             in='SourceAlpha'
             type='matrix'

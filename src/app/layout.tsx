@@ -2,11 +2,11 @@ import { ReactNode } from 'react';
 import type { Metadata } from 'next';
 
 import { Inter, Space_Mono } from 'next/font/google';
-import localFont from '@next/font/local';
+import localFont from 'next/font/local';
 
-import Navbar from '@/components/Navbar';
+import Navbar from '@/components/nav-bar';
 
-import StarsCanvas from '@/components/StarCanvas';
+import StarsCanvas from '@/components/star-canvas';
 
 import '../styles/globals.css';
 
@@ -50,11 +50,8 @@ const clash = localFont({
 });
 
 export const metadata: Metadata = {
-  title: {
-    default: `Portfolio`,
-    template: `%s | @vagnereix`,
-  },
-  description: `Software Engineer, Web Developer and Student portfolio.`,
+  title: `Portfolio | @vagnereix.dev`,
+  description: `Software Engineer, Computer Science student and Front-end Lead portfolio.`,
   icons: {
     icon: 'favicon.ico',
   },
@@ -64,9 +61,9 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html
       lang='en'
-      className={`${instrument.variable} ${orbitron.variable} ${futurism.variable} ${clash.variable} scroll-smooth`}
+      className={`${instrument.variable} ${orbitron.variable} ${futurism.variable} ${clash.variable} scroll-smooth select-none `}
     >
-      <body className={`bg-dark-900 overflow-y-scroll overflow-x-hidden`}>
+      <body className='bg-dark-900 overflow-y-scroll overflow-x-hidden'>
         <StarsCanvas />
         <Navbar />
 

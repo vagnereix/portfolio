@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
-@import url('aos/dist/aos.css');
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+@import url("aos/dist/aos.css");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -107,7 +107,7 @@
 }
 
 *::-webkit-scrollbar-track:active {
-  background-color: ;
+  background-color: transparent;
 }
 
 *::-webkit-scrollbar-thumb {
