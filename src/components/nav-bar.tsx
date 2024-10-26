@@ -15,7 +15,7 @@ const SOCIALS = [
   {
     name: 'GitHub',
     href: 'https://github.com/vagnereix/',
-    icon: '/gitwhite.png',
+    icon: '/techs/gitwhite.png',
     className: 'opacity-50 group-hover:opacity-100',
   },
   {
