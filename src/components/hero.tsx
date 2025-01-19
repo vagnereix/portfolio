@@ -3,15 +3,17 @@ import React from "react";
 import { Button } from "./button";
 import { SparklesIcon } from "@heroicons/react/24/outline";
 import { HeroEffect } from "./hero-effect";
+import { SplineScene } from "./ui/splite";
 
 const Hero = () => {
   return (
     <section
       id="section-home"
-      className="relative pt-24 md:pt-4 flex items-center justify-center w-full min-h-dvh"
+      className="mb-16 md:mb-0 relative pt-24 md:pt-4 flex items-center justify-center w-full min-h-dvh"
     >
-      <div className="px-10 flex flex-col md:flex-row items-center justify-center mx-auto w-full z-[20]">
-        <div className="h-full w-full flex flex-col gap-3 justify-center m-auto text-start">
+      <div className="flex flex-col md:flex-row items-center justify-center mx-auto w-full z-[20]">
+        <div className="relative h-full w-full flex flex-col gap-3 justify-center m-auto text-start">
+          <section className="px-4 md:px-0">
           <div
             data-aos="fade-down"
             className="relative z-[1] bg-gradient-gold-to-dark bg-clip-border rounded-xl w-max p-[1px]"
@@ -63,15 +65,25 @@ const Hero = () => {
               <Button outlined>Contact</Button>
             </a>
           </div>
+          </section>
+
+          <SplineScene 
+            scene="https://prod.spline.design/kZDDjO5HuC9GJUM2/scene.splinecode"
+            className="static !h-[450px] md:!h-[750px] after:absolute after:h-[1px] after:w-1/2 after:left-1/2 after:-translate-x-1/2 after:bottom-0 after:bg-white/10 self-end md:absolute -bottom-28 -right-[350px] w-full h-full"
+          />
         </div>
 
-        <div
+        {/* <div
           data-aos="fade-left"
           data-aos-delay="400"
           className="w-full h-[60vh] md:h-[80vh] flex justify-center items-center"
         >
           <HeroEffect />
-        </div>
+          <SplineScene 
+            scene="https://prod.spline.design/kZDDjO5HuC9GJUM2/scene.splinecode"
+            className="!h-[90%] self-end"
+          />
+        </div> */}
       </div>
     </section>
   );
